@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/illusion/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := mako
@@ -8,24 +8,24 @@ PRODUCT_RELEASE_NAME := mako
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Illusion stuff.
+$(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/illusion/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
 # Inherit device settings
-$(call inherit-product, vendor/slim/config/common_nexus.mk)
+$(call inherit-product, vendor/illusion/config/common_nexus.mk)
 
 # Inherit led flash settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
+$(call inherit-product, vendor/illusion/config/common_ledflash.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
-PRODUCT_NAME := slim_mako
+PRODUCT_NAME := illusion_mako
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
