@@ -15,7 +15,7 @@
    "branch":      "jb4.3"
  },
  {
-   "repository":  "droyd/kernel_lge_mako",
+   "repository":  "SlimRoms/kernel_lge_mako",
    "target_path": "kernel/lge/mako",
    "branch":      "jb4.3"
  }
